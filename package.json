@@ -1,0 +1,34 @@
+{
+  "name": "superagent-requestid",
+  "version": "0.0.1",
+  "description": "Add X-Request-ID headers to superagent requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumberj/superagent-requestid.git"
+  },
+  "keywords": [
+    "superagent",
+    "node"
+  ],
+  "author": "Alan Cohen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lumberj/superagent-requestid/issues"
+  },
+  "homepage": "https://github.com/lumberj/superagent-requestid#readme",
+  "peerDependencies": {
+    "superagent": "^1.4.0"
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.3"
+  },
+  "devDependencies": {
+    "express": "^4.13.3",
+    "mocha": "^2.3.3",
+    "superagent": "^1.4.0"
+  }
+}
